@@ -8,6 +8,11 @@ This starter includes
 
 ## installation
 
+
+```bash
+gastby new name https://github.com/charlie632/gatsby-basic-ts-starter
+```
+
 ```bash
 yarn install
 ```
