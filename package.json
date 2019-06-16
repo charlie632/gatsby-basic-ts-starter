@@ -1,0 +1,57 @@
+{
+  "name": "gatsby-basic-ts-starter",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "lint": "eslint ./src/**/*.{ts,tsx}"
+  },
+  "dependencies": {
+    "@types/react-helmet": "^5.0.8",
+    "@types/styled-components": "^4.1.15",
+    "babel-plugin-styled-components": "^1.10.0",
+    "emotion": "^10.0.9",
+    "gatsby": "^2.8.0",
+    "gatsby-plugin-google-analytics": "^2.0.20",
+    "gatsby-plugin-manifest": "^2.1.1",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-styled-components": "^3.0.7",
+    "gatsby-plugin-tslint": "^0.0.2",
+    "gatsby-plugin-typescript": "^2.0.15",
+    "gatsby-source-filesystem": "^2.0.38",
+    "react": "^16.8.6",
+    "react-custom-share": "^0.4.8",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
+    "styled-components": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.19",
+    "@types/react-dom": "^16.8.4",
+    "@typescript-eslint/eslint-plugin": "^1.10.2",
+    "@typescript-eslint/parser": "^1.10.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.13.0",
+    "prettier": "^1.17.1",
+    "tslint": "^5.17.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-loader": "^3.5.4",
+    "tslint-plugin-prettier": "^2.0.1",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
